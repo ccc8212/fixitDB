@@ -1,0 +1,31 @@
+{
+  "name": "Fix it DB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "superagent": "^4.0.0-beta.5"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "nodemon --inspect app.js "
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "C C",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
